@@ -1,0 +1,39 @@
+body{
+font-family: Arial;
+padding:40px;
+}
+
+form{
+width:300px;
+}
+
+input{
+width:100%;
+padding:8px;
+margin:5px 0;
+}
+
+small{
+color:red;
+font-size:12px;
+}
+
+.password-box{
+display:flex;
+}
+
+.password-box button{
+margin-left:5px;
+}
+
+.strength{
+height:8px;
+background:#ddd;
+margin:5px 0;
+}
+
+#strengthBar{
+height:100%;
+width:0%;
+background:red;
+}
