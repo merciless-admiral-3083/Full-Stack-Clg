@@ -1,6 +1,5 @@
 const button = document.getElementById("toggleBtn");
 
-// check saved theme
 let savedTheme = localStorage.getItem("theme");
 
 if(savedTheme === "dark"){
@@ -8,7 +7,6 @@ if(savedTheme === "dark"){
     document.body.style.color = "white";
 }
 
-// toggle function
 button.addEventListener("click", function(){
 
     if(document.body.style.backgroundColor === "black"){
