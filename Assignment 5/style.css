@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.temp {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.emoji {
+  font-size: 40px;
+}
+
+.loader {
+  color: white;
+  font-size: 20px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
